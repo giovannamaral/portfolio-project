@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Giovanna Amaral is a frontend developmente student based in Lisbon, Portugal"
+    />
+    <title>Contact Giovanna - Giovanna Amaral</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -32,39 +36,33 @@
   </head>
   <div class="container">
     <nav class="d-flex justify-content-between">
-      <a href="/">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+      <a href="/" title="Homepage">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="SheCodes Logo"
+        />
         <img
           src="images/logo-small.jpg"
           class="logo d-block d-md-none"
-          alt=""
+          alt="SheCodes Logo"
         />
       </a>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/" title="Homepage">Home</a>
         </li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li class="active"><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html" title="About Giovanna">About</a></li>
+        <li><a href="/work.html" title="Giovanna's works">Work</a></li>
+        <li class="active">
+          <a href="/contact.html" title="Contact Giovanna">Contact</a>
+        </li>
       </ul>
     </nav>
   </div>
   <div class="content-container container">
     <div class="content">
       <h1 class="mb-5">Let's get in touch!</h1>
-      <h3 class="mt-5">Email</h3>
-      <p>
-        <a href="mailto:giovannacostamaral@gmail.com"
-          >giovannacostamaral@gmail.com</a
-        >
-      </p>
-      <h3>Instagram</h3>
-      <p>
-        <a href="https://www.instagram.com/giovannamaral" target="_blank"
-          >@giovannamaral</a
-        >
-      </p>
     </div>
     <footer>
       <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
@@ -73,22 +71,46 @@
           <p class="text-muted">Let's work together</p>
         </div>
         <div>
-          <a href="" class="btn btn-branding mt-1">Contact me</a>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-1"
+            title="Contact Giovanna"
+            >Contact me</a
+          >
         </div>
       </div>
       <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:giovannacostamaral@gmail.com" class="email-link"
+        <a
+          href="mailto:giovannacostamaral@gmail.com"
+          class="email-link"
+          title="Email Giovanna"
           >giovannacostamaral@gmail.com</a
         >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://www.github.com/giovannamaral" target="_blank">
+        <a
+          href="https://www.github.com/giovannamaral"
+          target="_blank"
+          title="GitHub Profile"
+        >
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://instagram.com/giovannamaral" target="_blank">
+        <a
+          href="https://instagram.com/giovannamaral"
+          target="_blank"
+          title="Instagram Profile"
+        >
           <i class="fab fa-instagram"></i>
         </a>
       </div>
+      <p class="text-center mt-5">
+        This project was coded by Giovanna Amaral, and it is
+        <a
+          href="https://github.com/giovannamaral/portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >.
+      </p>
     </footer>
   </div>
 </html>
